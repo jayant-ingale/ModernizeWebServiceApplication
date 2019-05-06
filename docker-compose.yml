@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  modernizewebserviceapplication:
+    image: modernizewebserviceapplication
+    build:
+      context: .\ModernizeWebServiceApplication
+      dockerfile: Dockerfile
